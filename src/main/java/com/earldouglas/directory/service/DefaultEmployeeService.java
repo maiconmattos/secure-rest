@@ -8,7 +8,6 @@ import com.earldouglas.directory.Employee;
 
 @Component
 public class DefaultEmployeeService implements EmployeeService {
-	//Maicon2
 	private Map<String, Employee> employees;
 
 	public void setEmployees(Map<String, Employee> employees) {
